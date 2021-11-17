@@ -15,7 +15,7 @@
 
 
 # Accessing the Project
-1. To access this project you will need to have jupyter notebook installed and the packages needed to run this project. It is recomened you create a virtual environment.
+1. To access this project you will need to have certain packages in python. It is recomened you create a virtual environment.
     1. To create a virtual environment for Windows:
         1. Install anaconda: To check if anaconda is installed run `conda -V`
         2. Create a virtual environment by running: `conda create -n yourenvname python=x.x anaconda` where you replace "yourenvname" and "x.x". Use python 3.7 for this project.
@@ -26,7 +26,7 @@
         2. To create virtual environment: `python3 -m venv venv`
         3. Activate virtual environment: `source venv/bin/activate`
         4. Install requirements.txt `pip install -r requirements.txt`
-2. After you have the packages run `jupyter notebook` within your virtual environment. From here, you can click into the notebbok and run it.
+2. After you have the packages run `python individual_states.py` within your virtual environment. From here, you can choose which state you would like to see a map of by typing the [two letter code](https://www.ssa.gov/international/coc-docs/states.html) into the command line.
 
 # Next Steps for Project
 1. Expanding data sets to cover the whole United States
