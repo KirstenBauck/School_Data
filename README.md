@@ -28,8 +28,11 @@
         4. Install requirements.txt `pip install -r requirements.txt`
 2. After you have the packages run `python individual_states.py` within your virtual environment. From here, you can choose which state you would like to see a map of by typing the [two letter code](https://www.ssa.gov/international/coc-docs/states.html) into the command line.
 
+# Notes on Method
+* For the curation of this map, the mean is used for the max of the colorbar. This is because many states have counties on the very low end population density and only a couple at the high end of population density. As such, if the max of the colorbar was set to the max population density, one would not be able to see population density differences in most counties.
+
 # Next Steps for Project
 1. Expanding data sets to cover the whole United States
-2. Expanding Data Sets across time
-3. Drawing conclusions from maps
-4. Adding more Documentation
+2. Expanding data sets across time
+3. Analyzing schools in historically underrepresented communities
+4. Drawing conclusions from maps
